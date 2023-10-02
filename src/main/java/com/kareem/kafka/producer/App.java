@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
         // System.out.println( "Hello World!" );
-        KafkaProducer KP = new KafkaProducer();
+        KProducer KP = new KProducer();
         KP.sendMessage("Hello World!");
     }
 }
